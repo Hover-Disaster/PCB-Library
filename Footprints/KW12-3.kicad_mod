@@ -1,0 +1,126 @@
+(footprint "KW12-3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 8.66 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b6374ef5-9742-4d51-912a-6764f626db48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KW12-3"
+		(at 0 10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bc7c75db-7c11-445b-b849-36f09310435f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "KW12-3"
+		(at 0 9.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c2e7595-444a-4e7b-8632-fc5e16c5ed07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 9.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2db5d680-e55c-400c-badc-ec5aa1e12e19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 9.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f25b712-9893-43c8-84c6-4db07371e81d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.9 -3.2)
+		(end 9.9 3.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7aa79ef6-d347-459a-b5c8-65af557c4b60")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11.66 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1da86a71-cb05-4999-b100-637aa6ef8423")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -8.8 0)
+		(size 4 5)
+		(drill oval 1.5 3.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(chamfer_ratio 0)
+		(chamfer)
+		(uuid "d56af36f-cfa6-4b40-bfd5-213da04d4632")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 4 5)
+		(drill oval 1.5 3.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(chamfer_ratio 0)
+		(chamfer)
+		(uuid "15d2a72e-8801-4a18-a368-30f00746a650")
+	)
+	(pad "3" thru_hole roundrect
+		(at 7.3 0)
+		(size 4 5)
+		(drill oval 1.5 3.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(chamfer_ratio 0)
+		(chamfer)
+		(uuid "b35a0301-735f-4d22-beda-57433da917ac")
+	)
+)
