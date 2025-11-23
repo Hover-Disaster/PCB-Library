@@ -68,8 +68,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -9.9 -3.2)
-		(end 9.9 3.2)
+		(start -10.65 -3.2)
+		(end 9.15 3.2)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -97,8 +97,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1)
-		(chamfer_ratio 0)
-		(chamfer)
 		(uuid "d56af36f-cfa6-4b40-bfd5-213da04d4632")
 	)
 	(pad "2" thru_hole roundrect
@@ -108,8 +106,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1)
-		(chamfer_ratio 0)
-		(chamfer)
 		(uuid "15d2a72e-8801-4a18-a368-30f00746a650")
 	)
 	(pad "3" thru_hole roundrect
@@ -119,8 +115,17 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1)
-		(chamfer_ratio 0)
-		(chamfer)
 		(uuid "b35a0301-735f-4d22-beda-57433da917ac")
+	)
+	(model "${HOVER_LIBS}/3D Models/KW12-3.step"
+		(offset
+			(xyz 9.2 3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
 	)
 )
