@@ -1,0 +1,100 @@
+(footprint "PJ-611E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -12.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f3641ec9-b53b-489a-b033-de03a145aef3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PJ-611E"
+		(at 0 -11.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cc7ae788-f593-4204-a4d7-249284194aa0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -12.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bc7988a-1857-48f3-be30-a2fd1c73c6b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -12.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff4aa661-2b60-40fc-ab04-7dc575ec5716")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -12.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b696dff-831e-462a-b93d-274d97891f5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "690dbd67-1592-4659-8ca7-8528c17d2095")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -7.7 -0.05)
+		(size 4 2)
+		(drill oval 3 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "fcef3bb0-6a52-4715-9068-71695d6dbc7b")
+	)
+	(pad "1" thru_hole roundrect
+		(at -7.45 -5.7)
+		(size 4 2)
+		(drill oval 3 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "35a0b3a7-75fd-4ac0-8bc7-d920cab879e2")
+	)
+)
